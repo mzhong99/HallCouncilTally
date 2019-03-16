@@ -34,7 +34,6 @@ public class Launcher extends Application {
             File metaDataFile = metadataFileSelector.getFileChosen();
 
             if (dataFile == null || metaDataFile == null) {
-                Stage alertStage = new Stage();
                 Alert alert = new Alert(Alert.AlertType.ERROR);
                 alert.setTitle("Missing Files");
                 alert.setHeaderText("Data Files Missing!");
